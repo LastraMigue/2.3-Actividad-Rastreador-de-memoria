@@ -8,8 +8,8 @@ A continuación se presenta la tabla con las predicciones y sus respectivas just
 | **Log B** | `Teclado Mecánico` | **Asignación**: La variable fue inicializada explícitamente en la línea anterior. |
 | **Log C** | `25` | **Ámbito de bloque**: Declarada con `let` en el `if`, crea un nuevo ámbito local que prevalece sobre la exterior. |
 | **Log D** | `10` | **Ámbito de función**: Fuera del `if`, el `let` ya no existe y se usa la variable `var` de la función. |
-| **Log E** | `¡ERROR CATÁSTROFICO!` | **Ámbito de bloque**: Declarada con `const` en el `if`, es inaccesible desde fuera, causando error. |
-| **Log F** | `¡ERROR CATÁSTROFICO!` | **Zona Muerta Temporal**: El `let` no está inicializado. Usarlo antes de declararlo lanza un error. |
+| **Log E** | `¡ERROR CATASTRÓFICO!` | **Ámbito de bloque**: Declarada con `const` en el `if`, es inaccesible desde fuera, causando error. |
+| **Log F** | `¡ERROR CATASTRÓFICO!` | **Zona Muerta Temporal**: El `let` no está inicializado. Usarlo antes de declararlo lanza un error. |
 
 ## Tarea 2: Comprobación
 
