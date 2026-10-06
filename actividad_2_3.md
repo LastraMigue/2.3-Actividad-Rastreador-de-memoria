@@ -18,3 +18,7 @@ Tras ejecutar el código abriendo el archivo `index.html` en el navegador y revi
 Como se puede observar en la siguiente captura, **los resultados reales coinciden exactamente** con las predicciones realizadas en la Tarea 1.
 
 ![Resultado en consola de DevTools](./resources/F12.png)
+
+## Tarea 3: Conclusión Crítica
+
+Usar `var` es peligroso porque, debido al *hoisting*, las variables pueden usarse antes de asignarles un valor real, y además se "escapan" de las llaves `{}` donde las creaste. En una aplicación web grande, esto es un caos: pierdes el control del código y es facilísimo sobrescribir datos sin darte cuenta, provocando *bugs* muy difíciles de rastrear.
