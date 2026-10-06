@@ -10,3 +10,11 @@ A continuación se presenta la tabla con las predicciones y sus respectivas just
 | **Log D** | `10` | **Ámbito de función**: Fuera del `if`, el `let` ya no existe y se usa la variable `var` de la función. |
 | **Log E** | `¡ERROR CATÁSTROFICO!` | **Ámbito de bloque**: Declarada con `const` en el `if`, es inaccesible desde fuera, causando error. |
 | **Log F** | `¡ERROR CATÁSTROFICO!` | **Zona Muerta Temporal (TDZ)**: El `let` no está inicializado. Usarlo antes de declararlo lanza un error. |
+
+## Tarea 2: Comprobación
+
+Tras ejecutar el código abriendo el archivo `index.html` en el navegador y revisando la consola de las DevTools, contrastamos los resultados reales con la tabla de predicciones.
+
+Como se puede observar en la siguiente captura, **los resultados reales coinciden exactamente** con las predicciones realizadas en la Tarea 1.
+
+![Resultado en consola de DevTools](./resources/F12.png)
